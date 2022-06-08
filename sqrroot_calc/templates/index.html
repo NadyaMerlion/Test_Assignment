@@ -21,4 +21,6 @@
 </div>
 <p>{% block content %} {% include 'equation.html' %} {% endblock %} </p>
 
-<p><label for="ответ"> Ответ: {{ result1 }} {{ result2 }}</label></p>
+<p><label for="ответ"> Ответ: </label></p>
+<input type="readonly"> {{ result1 }} 
+<input type="readonly"> {{ result2 }}
